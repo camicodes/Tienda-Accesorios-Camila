@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cami Shop</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\arete1.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+                <td>AR001</td>
+                <td>Estrellita</td>
+                <td>$5.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Estrellita','5.50')"><img src="assets\img\cesta1.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\arete2.jpg" class="img-fluid rounded-start" alt="arete2" width="150" height="50" style="position: center;"></td>                
+              <td>AR002</td>
+              <td>Diamante salmon + earcuff</td>
+              <td>$7.82</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Diamante salmon + earcuff','7.82')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\arete3.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>AR003</td>
+              <td>Diamante lila + earcuff</td>
+              <td>$6.90</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Diamante lila + earcuff','6.90')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\arete4.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td> AR004</td>
+              <td>Set Estrellitas</td>
+              <td>$10.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Set Estrellitas','10.00')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>

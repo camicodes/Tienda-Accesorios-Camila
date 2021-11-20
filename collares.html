@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cami Shop</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\collar1.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+                <td>NEC001</td>
+                <td>Collar Trio Mágico</td>
+                <td>$10.99</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Collar Trio Mágico','10.99')"><img src="assets\img\cesta1.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\collar2.jpg" class="img-fluid rounded-start" alt="arete2" width="150" height="50" style="position: center;"></td>                
+              <td>NEC002</td>
+              <td>Collar Haces Latir Mi Corazón</td>
+              <td>$8.50</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Collar Haces Latir Mi Corazón','8.50')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\collar3.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>NEC003</td>
+              <td>Collar Amor Soy Yo</td>
+              <td>$9.50</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Collar Amor Soy Yo','9.50')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\collar4.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>NEC004</td>
+              <td>Collar Yo Me Amo</td>
+              <td>$10.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Collar Yo Me Amo','10.00')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\collar5.jpg" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>NEC005</td>
+              <td>Collar Multicharms Amor Mágico</td>
+              <td>$12.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Collar Multicharms Amor Mágico','12.00')"><img src="assets\img\cesta1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>
